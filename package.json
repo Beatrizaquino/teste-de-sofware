@@ -1,0 +1,23 @@
+{
+  "name": "projeto-node",
+  "type":"module",
+  "scripts": {
+    "test":"node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:watch":"node --experimental-vm-modules node_modules/jest/bin/jest.js --watchAll",
+    "test:coverage":"node --experimental-vm-modules node_modules/jest/bin/jest.js --watchAll --coverage"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "8.16.0",
+    "eslint-plugin-react": "^7.32.2"
+  },
+  "dependencies": {
+    "jest": "29.4.3"
+  }
+}
